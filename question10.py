@@ -10,7 +10,7 @@ print(rem_sec)
 
 sec_in_hour = rem_sec / 3600
 print(sec_in_hour)
-sec_in_minutes = (( rem_sec)%3600) / 60
+sec_in_minutes = ((rem_sec)%3600) / 60
 print(sec_in_minutes)
 sec= sec_in_minutes % 60
 print(sec)
