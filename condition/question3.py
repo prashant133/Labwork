@@ -3,12 +3,12 @@
   otherwise if it's more than 50 characters - name must be maximum of 50 characters
   otherwise - name looks good!
 '''
-name = (input("enter the name: "))
-len[size]
-if len > 3:
-    print('name must be long ')
-elif len > 50:
-    print('name is long')
+char = (input("enter the name: "))
+print(f'the length of name is:{(len(char))} ')
+if len(char)<= 3:
+    print('so name must be long ')
+elif len(char)> 50:
+    print('so name is long')
 else :
-    print("name is good")
+    print("so name is good")
 
