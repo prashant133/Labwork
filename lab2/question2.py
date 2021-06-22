@@ -10,7 +10,7 @@ total_attempt_marks = math + sci + eng + com
 total_marks = 400
 percentage = (total_attempt_marks / total_marks) * 100
 print(f'The percentage is {percentage}')
-if percentage > 70:
+if percentage > 70 :
     print(f'contrats!! you got distinction')
 elif percentage > 60 <=69:
     print(f'you got first divison.')

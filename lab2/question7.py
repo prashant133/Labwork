@@ -3,10 +3,16 @@ Given a positve real number, print its fraction part.
 '''
 
 import math
-def math()
-    (math.modf(1.5))
 
-print(type(math.modf(1.5)))
+a=float(input("enter the number: "))
+
+'''
+math.modf(x)
+Return the fractional and integer parts of x. Both results carry the sign of x and are floats.
+https://note.nkmk.me/en/python-math-modf/'''
+x,y=math.modf(a)
+print(x)
+print(y)
 
 
 

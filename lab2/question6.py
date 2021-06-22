@@ -2,5 +2,6 @@
 Given and integer number print its last digit.
 '''
 
-integer = int(input('Enter the integer: '))
-while integer > 0 :
+num = int(input('Enter the number: '))
+last_digit = num%10
+print(f'its last digit is {last_digit}')
